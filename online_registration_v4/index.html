@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta name="viewport" content="width=device-width,  initial-scale=1.0">
+<meta charset="UTF-8">
+<title>Review</title>
+<link rel="stylesheet" href="css/normalize.css">
+<link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css">
+
+</head>
+
+
+<body>
+        <header>
+        <h1><span>The</span>  CODE <span>REVIEW</span> </h1>
+        </header>
+        <div class="main">
+        <div class="signletter">
+        <h1> Signup for our NewsLetter </h1>
+        <p class="signnews">Get the Latest News on how your code is doing right in your inbox </p>
+        </div>
+
+        <div class="flex">
+        <form action="index.html" method="post">
+        <div class="background">
+        <fieldset class="contact">
+        <legend> Contact Information </legend>
+        <div class="info">
+        <label class="information" for="name"> Full Name</label>
+        <input type="text" id="name" name="user_name" placeholder="Required" required>
+        </div>
+
+        <div class="info">
+        <label class="information" for="email"> Email Address</label>
+        <input type="email" id="email" name="user_email" placeholder="Required" required>
+        </div>
+
+        <div class="info">
+        <label class="information" for="tel"> Phone Number</label>
+        <input type="tel" id="tel" name="user_number" placeholder="(323)451-2821">
+        </div>
+
+        <div class="info">
+        <label class="information" for="address"> Street Address</label>
+        <input type="text" id="address" name="user_address" placeholder="1600 Pennsylvania Ave NW, Washington DC">
+        </div>
+
+        <div class="info">
+        <label class="information" for="city"> City </label>
+        <input type="text" id="city" name="user_city" placeholder="City">
+        </div>
+
+        <div class="info">
+        <label class="information" for="state"> State </label>
+        <select id="state" name="user_state">
+        <optgroup label="State">
+            <option disabled selected value="Select"> Choose State </option>
+            <option value="Alabama">Alabama</option>
+            <option value="Alaska">Alaska</option>
+            <option value="Arizona">Arizona</option>
+            <option value="Arkansas">Arkansas</option>
+            <option value="California">California</option>
+            <option value="Colorado">Colorado</option>
+            <option value="Connecticut">Connecticut</option>
+            <option value="Delaware">Deleware</option>
+            <option value="District of Columbia">District of Columbia</option>
+            <option value="Florida">Florida</option>
+            <option value="Georgia">Georgia</option>
+            <option value="Hawaii">Hawaii</option>
+            <option value="Idaho">Idaho</option>
+            <option value="Illinois">Illinois</option>
+            <option value="Indiana">Indiana</option>
+            <option value="Iowa">Iowa</option>
+            <option value="Kansas">Kansas</option>
+            <option value="Kentucky">Kentucky</option>
+            <option value="Louisiana">Louisiana</option>
+            <option value="Maine">Maine</option>
+            <option value="Maryland">Maryland</option>
+            <option value="Massachusettes">Massachusettes</option>
+            <option value="Michigan">Michigan</option>
+            <option value="Minnesota">Minnesota</option>
+            <option value="Mississippi">Mississippi</option>
+            <option value="Missouri">Missouri</option>
+            <option value="Montana">Montana</option>
+            <option value="Nebraska">Nebraska</option>
+            <option value="New Hampshire">New Hampshire</option>
+            <option value="New Jersey">New Jersey</option>
+            <option value="New Mexico">New Mexico</option>
+            <option value="New York">New York</option>
+            <option value="North Carolina">North Carolina</option>
+            <option value="North Dakota">North Dakota</option>
+            <option value="Ohio">Ohio</option>
+            <option value="Oklahoma">Okklahoma</option>
+            <option value="Oregon">Oregon</option>
+            <option value="Pennsylvania">Pennsylvania</option>
+            <option value="Rhode Island">Rhode Island</option>
+            <option value="South Carolina">South Carolina</option>
+            <option value="South Dakota">South Dakota</option>
+            <option value="Tennessee">Tennessee</option>
+            <option value="Texas">Texas</option>
+            <option value="Utah">Utah</option>
+            <option value="Vermont">Vermont</option>
+            <option value="Virginia">Virginia</option>
+            <option value="Washington">Washington</option>
+            <option value="West Virginia">West Virginia</option>
+            <option value="Wisconsin">Wisconsin</option>
+            <option value="Wyoming">Wyoming</option>
+        </optgroup>
+        </select>
+        </div>
+
+        <div class="info">
+        <label class="information" for="zipcode"> Zip Code </label>
+        <input type="number" id="zipcode" name="user_zipcode" placeholder="11385">
+        </div>
+        </fieldset>
+        </div>
+        <fieldset class="newsletter">
+        <legend> NewsLetter </legend>
+        
+        <p class="newsreceive">Select the newsletters you would like to receive. </p>
+        
+        <input type="checkbox" id="html-1" value="interest-html" name="user_interest"><label class="labelfont"
+        for="html-1"> HTML Form </label><br>
+        
+        <input type="checkbox" id="css" value="interest-css" name="user_interest"><label class="labelfont"
+        for="css"> CSS News </label><br>
+        
+        <input type="checkbox" id="js" value="interest-js" name="user_interest"><label class="labelfont"
+        for="js"> Javascript News </label><br>
+        
+        <p class="newsreceive">Newsletter Format. </p>
+        
+        <input type="radio" id="html-2" value="interest-html" name="user_interest"><label class="labelfont"
+        for="html-2"> HTML </label><br>
+        
+        <input type="radio" id="plain" value="interest-plain" name="user_interest"><label class="labelfont"
+        for="plain"> Plain Text </label><br>
+
+        <p class="newsreceive"> Other topics you'd like to hear about </p>
+        <textarea id="information" name="user_info"></textarea>
+
+        <button type="submit"> Sign Up </button>
+        <p class="footercenter">&copy; The Code Review </p>
+        </fieldset>
+        </form>
+        </div>
+        </div>
+    </body>
+    </html>
